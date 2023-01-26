@@ -82,7 +82,6 @@ body.dark{
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    
 }
 
 .sidebar .text,
@@ -137,16 +136,15 @@ header .image-text .profession{
     border-radius: 6px;
 }
 
-}
-.sidebar header .toggle {
+.sidebar header .toggle{
     position: absolute;
     top: 50%;
     right: -25px;
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
     width: 25px;
-    background-color: #675bfe;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--sidebar-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -155,6 +153,7 @@ header .image-text .profession{
     cursor: pointer;
     transition: var(--tran-05);
 }
+
 body.dark .sidebar header .toggle{
     color: var(--text-color);
 }
@@ -307,14 +306,4 @@ body.dark .switch::before{
 }
 body.dark .home .text{
     color: var(--text-color);
-}
-
-
-
-.visible{
-    display: block;
-}
-
-.invisible{
-    display: none;
 }
